@@ -58,9 +58,6 @@ newlist.clear()
 print(newlist)
 
 # delete entire list
-<<<<<<< HEAD
-del newlist
-=======
 del newlist
 
 # sorting list
@@ -118,8 +115,7 @@ for i in l4:
     else: 
         break
 print(l4)
-
 # or
 l4 = [x for x in l4 if x!=3]
 print(l4)
->>>>>>> e09a84b (list)
+
