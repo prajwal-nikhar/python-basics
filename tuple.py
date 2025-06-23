@@ -34,5 +34,24 @@ y.remove("apple")
 thistuple = tuple(y)
 print(thistuple)
 
+# for loop
+for x in thistuple:
+    print(x)
+# or
+for i in range(len(thistuple)):
+    print(thistuple[i])
+
+# while loop
+i=0
+while i<len(thistuple):
+    print("while loop: ", thistuple[i])
+    i = i + 1
+
 del thistuple
 print(thistuple)
+
+# methods in tuple
+'''
+1. count()
+2. index()
+'''
